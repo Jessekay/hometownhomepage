@@ -1,0 +1,135 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-image: url(./images/hometown.jpeg);
+  width: auto;
+  height: 443px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+font-weight: 700;
+font-size: 32px;
+background: rgba(29, 53, 87, 1);
+color: white;
+padding: 5px 10px;
+border-radius: 6px;
+}
+
+#intro {
+  font-weight: 700;
+  font-size: 18px;
+  color: white;
+  background: rgba(69, 123, 157, 1);
+  border-radius: 6px;
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.activity {
+  background: rgba(241, 250, 238, 1);
+  height: 378px;
+  margin-top: -25px;
+  color: rgba(29, 53, 87, 1);
+}
+
+#title-activity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.activities {
+  width: 198px;
+  min-height: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-activity {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+
+}
+
+.info-title {
+  display: flex;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.info-activity {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer {
+  height: 394px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 450px;
+  height: 294px;
+  color: rgba(29, 53, 87, 1);
+  border-radius: 14px;
+  border-bottom: 5px solid rgb(25, 25, 65);
+  background: rgba(168, 218, 220, 1);
+}
+
+.card img {
+  display: flex;
+  width: 200px;
+  height: 248px;
+  margin: 25px 0 0 5px;
+  border-radius: 10px;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 28px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card-text {
+  width: 189px;
+  font-style: italic;
+}
+
+.card-name {
+  font-size: 16px;
+  font-weight: 700;
+}
